@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.judulku {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 5rem;
+  padding: 8rem;
+  justify-content: center;
+  height: auto;
+  max-height: 100vh;
+}
+
+.jbox {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+.jbox:hover {
+  transform: scale(1.02);
+}
+
+.pcolor {
+  max-width: 80px;
+  width: 80px;
+  border: unset;
+  cursor: pointer;
+}
+
+.pcolor:hover {
+  transform: scale(1.1);
+}
+
+button {
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid lime;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background: rgb(227, 255, 0);
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
